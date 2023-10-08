@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerContactAdapter adapter = new RecyclerContactAdapter(this,arrayContact);
         recyclerView.setAdapter(adapter);
 
+        System.out.println("hello this is my First Commit");
 
 
 
